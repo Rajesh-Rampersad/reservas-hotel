@@ -388,7 +388,7 @@ Class ControladorUsuarios{
 				CREAMOS EL DIRECTORIO DONDE VAMOS A GUARDAR LA FOTO DEL USUARIO
 				=============================================*/
 
-				$directorio = "../backend/vistas/img/usuarios/".$_POST["idUsuarioFoto"];
+				$directorio = "ajax/backend/vistas/img/usuarios/".$_POST["idUsuarioFoto"];
 
 				/*=============================================
 				PRIMERO PREGUNTAMOS SI EXISTE OTRA IMAGEN EN LA BD

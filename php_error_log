@@ -1,0 +1,2 @@
+[30-Aug-2023 18:32:36 Europe/Berlin] PHP Warning:  unlink(backend/nd/vistas/img/usuarios/4/806.png): No such file or directory in /opt/lampp/htdocs/reservas-hotel/controladores/usuarios.controlador.php on line 399
+[30-Aug-2023 18:32:36 Europe/Berlin] PHP Warning:  imagepng(../backend/vistas/img/usuarios/4/261.png): failed to open stream: No such file or directory in /opt/lampp/htdocs/reservas-hotel/controladores/usuarios.controlador.php on line 447

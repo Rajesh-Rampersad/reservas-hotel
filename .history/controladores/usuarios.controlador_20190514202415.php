@@ -388,7 +388,7 @@ Class ControladorUsuarios{
 				CREAMOS EL DIRECTORIO DONDE VAMOS A GUARDAR LA FOTO DEL USUARIO
 				=============================================*/
 
-				$directorio = "../backend/vistas/img/usuarios/".$_POST["idUsuarioFoto"];
+				$directorio = "backend/vistas/img/usuarios/".$_POST["idUsuarioFoto"];
 
 				/*=============================================
 				PRIMERO PREGUNTAMOS SI EXISTE OTRA IMAGEN EN LA BD
@@ -402,7 +402,7 @@ Class ControladorUsuarios{
 
 					if(!file_exists($directorio)){	
 
-						mkdir($directorio, 0777);
+						mkdir($directorio, 0755);
 
 					}
 
