@@ -2,3 +2,9 @@ Options All -Indexes
 
 RewriteEngine On
 RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?pagina=$1
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^tudominio\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tudominio\.com$
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://tudominio.com/$1 [R=301,L,NE]
